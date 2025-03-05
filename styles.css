@@ -1,0 +1,106 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #1a202c;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.principal {
+    display: flex;
+    border-radius: 15px;
+    background-color: white;
+    padding: 40px 20px 40px 20px;
+    width: max-content;
+    align-self: center;
+    height: 600px;
+}
+
+.main_pic {
+    height: 450px;
+}
+
+.side_pic {
+    display: block;
+    height: 84px;
+    width: 67px;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+section {
+    margin: 10px;
+}
+
+section:last-of-type {
+    margin-left: 50px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.title {
+    color: blue;
+}
+
+.details {
+    color: gray;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: 500;
+    display: inline;
+}
+
+.discount {
+    display: inline;
+    margin-left: 10px;
+    background-color: #abccf9;
+    font-size: 20px;
+    padding: 5px;
+    color: blue;
+}
+
+.old_price {
+    text-decoration: line-through;
+    color: gray;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.radio_group {
+    display: flex;
+    gap: 20px;
+}
+
+.radio_group input {
+    display: none;
+}
+
+.radio_group label {
+    padding: 10px;
+}
+
+.radio_group input:checked + label {
+    background-color: black;
+    color: white;
+}
+
+button {
+    width: 100%;
+    text-align: center;
+    background-color: #1a76ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
