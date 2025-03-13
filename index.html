@@ -7,17 +7,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>T-shirt Preview</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+    function change_pic(x){
+        document.getElementById("big_pic").src = x 
+    }
+    </script>
 </head>
 
 <body>
     <div class="principal">
         <section class="pics_nav">
-            <img src="front.jpeg" alt="t-shirt_front" class="side_pic">
-            <img src="side.jpeg" alt="t-shirt_side" class="side_pic">
-            <img src="back.jpeg" alt="t-shirt_back" class="side_pic">
+            <img src="front.jpeg" alt="t-shirt_front" class="side_pic" onclick="change_pic('front.jpeg')">
+            <img src="side.jpeg" alt="t-shirt_side" class="side_pic" onclick="change_pic('side.jpeg')">
+            <img src="back.jpeg" alt="t-shirt_back" class="side_pic" onclick="change_pic('back.jpeg')">
         </section>
         <section class="main_pic">
-            <img src="front.jpeg" alt="t-shirt_front">
+            <img src="front.jpeg" alt="t-shirt_front" id="big_pic">
         </section>
         <section class="description">
             <p class="title">POLO RALPH</p>

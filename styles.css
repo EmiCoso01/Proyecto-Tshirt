@@ -19,8 +19,16 @@ body {
     height: 600px;
 }
 
-.main_pic {
-    height: 450px;
+#big_pic {
+    height: 550px;
+    width: 400px;
+}
+
+@media (max-width: 860px) {
+    #big_pic {
+        height: 300px;
+        width: 200px;
+    }
 }
 
 .side_pic {
@@ -29,6 +37,7 @@ body {
     width: 67px;
     margin: 5px;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 section {
@@ -103,4 +112,5 @@ button {
     padding: 10px;
     border-radius: 4px;
     margin-top: 20px;
+    cursor: pointer;
 }
